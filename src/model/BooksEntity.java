@@ -2,9 +2,7 @@ package model;
 
 import javax.persistence.*;
 
-/**
- * Created by chitboon on 12/5/16.
- */
+
 @Entity
 @Table(name = "BOOKS", schema = "test", catalog = "")
 public class BooksEntity {
